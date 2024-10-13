@@ -1,0 +1,83 @@
+/* ListCurrency.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    background-color: #f4f4f4; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduced gap */
+    margin-bottom: 20px; /* Increased margin for spacing */
+  }
+  
+  .dropdown {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: linear-gradient(to top, #ffffff, #f0f0f0); /* Subtle gradient */
+  }
+  
+  .input-container {
+    margin: 10px 0; /* Reduced margin to bring closer to buttons */
+    text-align: center;
+  }
+  
+  .input-field {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 120px; /* Adjust width as needed */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: linear-gradient(to top, #ffffff, #f0f0f0); /* Subtle gradient */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Consistent gap */
+  }
+  
+  .button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow for depth */
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow return on click */
+  }
+  
+  .converted-amount {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
